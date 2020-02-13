@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "text-security-circle";
+  src: url("text-security-circle-U+aaab-ffff.eot");
+  src: url("text-security-circle-U+aaab-ffff.eot?#iefix")format("embedded-opentype"),
+    url("text-security-circle-U+aaab-ffff.woff2") format("woff2"),
+    url("text-security-circle-U+aaab-ffff.woff") format("woff"),
+    url("text-security-circle-U+aaab-ffff.ttf") format("truetype"),
+    url("text-security-circle-U+aaab-ffff.svg#text-security") format("svg");
+  unicode-range: U+aaab-ffff
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "text-security-disc";
+  src: url("text-security-disc-U+aaab-ffff.eot");
+  src: url("text-security-disc-U+aaab-ffff.eot?#iefix")format("embedded-opentype"),
+    url("text-security-disc-U+aaab-ffff.woff2") format("woff2"),
+    url("text-security-disc-U+aaab-ffff.woff") format("woff"),
+    url("text-security-disc-U+aaab-ffff.ttf") format("truetype"),
+    url("text-security-disc-U+aaab-ffff.svg#text-security") format("svg");
+  unicode-range: U+aaab-ffff
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "text-security-square";
+  src: url("text-security-square-U+aaab-ffff.eot");
+  src: url("text-security-square-U+aaab-ffff.eot?#iefix")format("embedded-opentype"),
+    url("text-security-square-U+aaab-ffff.woff2") format("woff2"),
+    url("text-security-square-U+aaab-ffff.woff") format("woff"),
+    url("text-security-square-U+aaab-ffff.ttf") format("truetype"),
+    url("text-security-square-U+aaab-ffff.svg#text-security") format("svg");
+  unicode-range: U+aaab-ffff
+}

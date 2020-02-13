@@ -1,4 +1,16 @@
+# Changes compared to original text-security project
+
+This is a fork of https://github.com/noppa/text-security
+
+The essential changes are:
+
+- supports the whole Basic Multilingual Plane by specifiing multiple fonts with different unicode ranges (https://en.wikipedia.org/wiki/UTF-8) The link explains the different unicode ranges
+- browser will only load needed unicode range
+- typescript ( ts-node )
+- possibility to crate fonts for multipe unicode ranges (see build section)
+
 # text-security
+
 Cross-browser alternative to `-webkit-text-security`
 
 This is a simple set of fonts that only consists of 3 different characters.
@@ -20,30 +32,85 @@ StackOverflow
 question](https://stackoverflow.com/questions/36935576/how-to-make-input-type-tel-work-as-type-password/36950075#36950075).
 
 ## Installation
-```
-npm install text-security
-```
 
-You can use the fonts by adding this repo as a dependency and including
-`dist/text-security.css` in your project, like so
-
-`<link rel="stylesheet" type="text/css"
-href="node_modules/text-security/dist/text-security.css">`
+No install from npm with this fork
 
 ## Building with custom modifications
-If you want to make your own tweaks, the `npm run build` command has two
-optional arguments for you. By default, 768 different unicode characters are
-included in the fonts, making it reliable for different use-cases but also
-adding quite a big font files as a dependency. You can use the
-`--max={number}` option to reduce the amount of included unicode characters.
 
-If you are feeling wild, you can also add your custom shapes by dropping them
-to *assets* folder and running the build with `--shapes={string}` option. The
-value should be comma-separated list of svg file names (don't include the
-file extension in the name). The default value is `circle,square,disc`.
-The generated css will have class names with `text-security-*` prefix
-followed by the name of the shape, like `text-security-disc`.
+Requires NODE 12 (unsing array flatMap)
+
+```
+npm install
+npm run build -- --help
+```
+
+this will print the possible Options:
+
+```
+npm run build -- --help
+
+Options:
+  --help              Show help
+                      [boolean]
+
+  --version           Show version number
+                      [boolean]
+
+  --baseName, -n      Name of the base font
+                      [string]
+                      [default"text-security"]
+
+  --shapes, -s        The shapes to build.
+                      [array]
+                      [choices: "circle", "square", "disc"]
+                      [default"disc"]
+
+  --unicodes, -u      Unicode ranges for the font
+                      [array]
+                      [default: "U+0-780"]
+
+  --outputDir, -o     The relative output path for the font
+                      [string]
+                      [default: "./font"]
+
+  --shouldComine, -c  Flag indicating if css should be combined into one file
+                      [boolean]
+                      [default: true]
+```
+
+eg. Following command will genereate the default font folder
+
+```
+npm run build -- -s disc square circle -u U+0-780 U+781-5555 U+5556-aaaa U+aaab-ffff
+```
+
+shows detailed conversion progress information
+
+```
+Generate configuration
+
+Generate and convert fonts (This can take a while)
+Font created
+|> shape: disc / range: U+0-780
+|> svg ✓  ttf ✓  eot ✓  woff ✓  woff2 ✓
+Font created
+|> shape: disc / range: U+781-5555
+|> svg ✓  ttf ✓  eot ✓  woff ✓  woff2 ✓
+Font created
+|> shape: disc / range: U+5556-aaaa
+|> svg ✓  ttf ✓  eot ✓  woff ✓  woff2 ✓
+Font created
+|> shape: disc / range: U+aaab-ffff
+|> svg ✓  ttf ✓  eot ✓ woff ✓  woff2 ✓
+.
+.
+.
+Generate css
+
+Finished
+```
 
 ## Demo
-*demo.html* contains a proof-of-concept demo file, which you can just open in
-any browser. The same thing can also be found [as a fiddle](https://jsfiddle.net/449Lamue/6/).
+
+_demo.html_ contains a proof-of-concept demo file, which you can just open in
+any browser.

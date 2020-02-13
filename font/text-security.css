@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "text-security-disc";
+  src: url("text-security-disc-U+0-780.eot");
+  src: url("text-security-disc-U+0-780.eot?#iefix")format("embedded-opentype"),
+    url("text-security-disc-U+0-780.woff2") format("woff2"),
+    url("text-security-disc-U+0-780.woff") format("woff"),
+    url("text-security-disc-U+0-780.ttf") format("truetype"),
+    url("text-security-disc-U+0-780.svg#text-security") format("svg");
+  unicode-range: U+0-780
+}
+
+@font-face {
+  font-family: "text-security-disc";
+  src: url("text-security-disc-U+781-5555.eot");
+  src: url("text-security-disc-U+781-5555.eot?#iefix")format("embedded-opentype"),
+    url("text-security-disc-U+781-5555.woff2") format("woff2"),
+    url("text-security-disc-U+781-5555.woff") format("woff"),
+    url("text-security-disc-U+781-5555.ttf") format("truetype"),
+    url("text-security-disc-U+781-5555.svg#text-security") format("svg");
+  unicode-range: U+781-5555
+}
+
+@font-face {
+  font-family: "text-security-disc";
+  src: url("text-security-disc-U+5556-aaaa.eot");
+  src: url("text-security-disc-U+5556-aaaa.eot?#iefix")format("embedded-opentype"),
+    url("text-security-disc-U+5556-aaaa.woff2") format("woff2"),
+    url("text-security-disc-U+5556-aaaa.woff") format("woff"),
+    url("text-security-disc-U+5556-aaaa.ttf") format("truetype"),
+    url("text-security-disc-U+5556-aaaa.svg#text-security") format("svg");
+  unicode-range: U+5556-aaaa
+}
+
+@font-face {
+  font-family: "text-security-disc";
+  src: url("text-security-disc-U+aaab-ffff.eot");
+  src: url("text-security-disc-U+aaab-ffff.eot?#iefix")format("embedded-opentype"),
+    url("text-security-disc-U+aaab-ffff.woff2") format("woff2"),
+    url("text-security-disc-U+aaab-ffff.woff") format("woff"),
+    url("text-security-disc-U+aaab-ffff.ttf") format("truetype"),
+    url("text-security-disc-U+aaab-ffff.svg#text-security") format("svg");
+  unicode-range: U+aaab-ffff
+}
+
+@font-face {
+  font-family: "text-security-square";
+  src: url("text-security-square-U+0-780.eot");
+  src: url("text-security-square-U+0-780.eot?#iefix")format("embedded-opentype"),
+    url("text-security-square-U+0-780.woff2") format("woff2"),
+    url("text-security-square-U+0-780.woff") format("woff"),
+    url("text-security-square-U+0-780.ttf") format("truetype"),
+    url("text-security-square-U+0-780.svg#text-security") format("svg");
+  unicode-range: U+0-780
+}
+
+@font-face {
+  font-family: "text-security-square";
+  src: url("text-security-square-U+781-5555.eot");
+  src: url("text-security-square-U+781-5555.eot?#iefix")format("embedded-opentype"),
+    url("text-security-square-U+781-5555.woff2") format("woff2"),
+    url("text-security-square-U+781-5555.woff") format("woff"),
+    url("text-security-square-U+781-5555.ttf") format("truetype"),
+    url("text-security-square-U+781-5555.svg#text-security") format("svg");
+  unicode-range: U+781-5555
+}
+
+@font-face {
+  font-family: "text-security-square";
+  src: url("text-security-square-U+5556-aaaa.eot");
+  src: url("text-security-square-U+5556-aaaa.eot?#iefix")format("embedded-opentype"),
+    url("text-security-square-U+5556-aaaa.woff2") format("woff2"),
+    url("text-security-square-U+5556-aaaa.woff") format("woff"),
+    url("text-security-square-U+5556-aaaa.ttf") format("truetype"),
+    url("text-security-square-U+5556-aaaa.svg#text-security") format("svg");
+  unicode-range: U+5556-aaaa
+}
+
+@font-face {
+  font-family: "text-security-square";
+  src: url("text-security-square-U+aaab-ffff.eot");
+  src: url("text-security-square-U+aaab-ffff.eot?#iefix")format("embedded-opentype"),
+    url("text-security-square-U+aaab-ffff.woff2") format("woff2"),
+    url("text-security-square-U+aaab-ffff.woff") format("woff"),
+    url("text-security-square-U+aaab-ffff.ttf") format("truetype"),
+    url("text-security-square-U+aaab-ffff.svg#text-security") format("svg");
+  unicode-range: U+aaab-ffff
+}
+
+@font-face {
+  font-family: "text-security-circle";
+  src: url("text-security-circle-U+0-780.eot");
+  src: url("text-security-circle-U+0-780.eot?#iefix")format("embedded-opentype"),
+    url("text-security-circle-U+0-780.woff2") format("woff2"),
+    url("text-security-circle-U+0-780.woff") format("woff"),
+    url("text-security-circle-U+0-780.ttf") format("truetype"),
+    url("text-security-circle-U+0-780.svg#text-security") format("svg");
+  unicode-range: U+0-780
+}
+
+@font-face {
+  font-family: "text-security-circle";
+  src: url("text-security-circle-U+781-5555.eot");
+  src: url("text-security-circle-U+781-5555.eot?#iefix")format("embedded-opentype"),
+    url("text-security-circle-U+781-5555.woff2") format("woff2"),
+    url("text-security-circle-U+781-5555.woff") format("woff"),
+    url("text-security-circle-U+781-5555.ttf") format("truetype"),
+    url("text-security-circle-U+781-5555.svg#text-security") format("svg");
+  unicode-range: U+781-5555
+}
+
+@font-face {
+  font-family: "text-security-circle";
+  src: url("text-security-circle-U+5556-aaaa.eot");
+  src: url("text-security-circle-U+5556-aaaa.eot?#iefix")format("embedded-opentype"),
+    url("text-security-circle-U+5556-aaaa.woff2") format("woff2"),
+    url("text-security-circle-U+5556-aaaa.woff") format("woff"),
+    url("text-security-circle-U+5556-aaaa.ttf") format("truetype"),
+    url("text-security-circle-U+5556-aaaa.svg#text-security") format("svg");
+  unicode-range: U+5556-aaaa
+}
+
+@font-face {
+  font-family: "text-security-circle";
+  src: url("text-security-circle-U+aaab-ffff.eot");
+  src: url("text-security-circle-U+aaab-ffff.eot?#iefix")format("embedded-opentype"),
+    url("text-security-circle-U+aaab-ffff.woff2") format("woff2"),
+    url("text-security-circle-U+aaab-ffff.woff") format("woff"),
+    url("text-security-circle-U+aaab-ffff.ttf") format("truetype"),
+    url("text-security-circle-U+aaab-ffff.svg#text-security") format("svg");
+  unicode-range: U+aaab-ffff
+}
+
