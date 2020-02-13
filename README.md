@@ -7,7 +7,7 @@ The essential changes are:
 - supports the whole Basic Multilingual Plane by specifiing multiple fonts with different unicode ranges (https://en.wikipedia.org/wiki/UTF-8) The link explains the different unicode ranges
 - browser will only load needed unicode range
 - typescript ( ts-node )
-- possibility to crate fonts for multipe unicode ranges (see build section)
+- possibility to create fonts for multiple unicode ranges (see build section)
 
 # text-security
 
@@ -41,10 +41,9 @@ Requires NODE 12 (unsing array flatMap)
 
 ```
 npm install
-npm run build -- --help
 ```
 
-this will print the possible Options:
+This will print the possible options:
 
 ```
 npm run build -- --help
@@ -78,13 +77,13 @@ Options:
                       [default: true]
 ```
 
-eg. Following command will genereate the default font folder
+Eg. Following command will genereate the default font folder
 
 ```
 npm run build -- -s disc square circle -u U+0-780 U+781-5555 U+5556-aaaa U+aaab-ffff
 ```
 
-shows detailed conversion progress information
+Shows detailed conversion progress information
 
 ```
 Generate configuration
